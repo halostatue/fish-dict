@@ -1,12 +1,12 @@
 # halostatue/fish-dict
 
+[![Version][]](https://github.com/halostatue/fish-dict/releases)
+
 Dictionary functions for [fish shell][]. These functions are based on bash 3
 functionality, because fish does not yet support associative arrays.
 
 This has been extracted from `halostatue/fish-utils-core` because these
 functions are not core and should be installed on their own.
-
-[![Version][]](https://github.com/halostatue/fish-dict/releases)
 
 ## Installation
 
@@ -55,6 +55,6 @@ dict:count x          # the number of keys found in dictionary x
 [MIT](LICENCE.md)
 
 [fish shell]: https://fishshell.com 'friendly interactive shell'
-[version]: https://img.shields.io/github/tag/halostatue/fish-utils-core.svg?label=Version
+[version]: https://img.shields.io/github/tag/halostatue/fish-dict.svg?label=Version
 [fisher]: https://github.com/jorgebucaran/fisher
 [fish]: https://github.com/fish-shell/fish-shell
