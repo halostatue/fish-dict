@@ -13,8 +13,7 @@ functions are not core and should be installed on their own.
 Install with [Fisher][] (recommended):
 
 ```fish
-fisher add halostatue/fish-dict # Fisher 3.x
-fisher install halostatue/fish-dict # Fisher 4.0+
+fisher install halostatue/fish-dict@1.x
 ```
 
 <details>
@@ -50,9 +49,19 @@ dict:keys x           # the list of all keys in dictionary x
 dict:count x          # the number of keys found in dictionary x
 ```
 
-## License
+## Licence
 
-[MIT](LICENCE.md)
+[MIT](./LICENCE.md)
+
+## Change Log
+
+[CHANGELOG](./CHANGELOG.md)
+
+## Contributing
+
+- [Contributing](./CONTRIBUTING.md)
+- [Contributors](./CONTRIBUTORS.md)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 [fish shell]: https://fishshell.com 'friendly interactive shell'
 [version]: https://img.shields.io/github/tag/halostatue/fish-dict.svg?label=Version
