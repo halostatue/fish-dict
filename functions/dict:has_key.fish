@@ -1,3 +1,4 @@
+# @halostatue/fish-dict/functions/dict:has_key.fish
 function dict:has_key -a name key -d 'Returns true if $name{$key} exists'
     if test -z $name
         echo >&2 'dict:has_key: requires a name.'

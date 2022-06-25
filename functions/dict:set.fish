@@ -1,3 +1,4 @@
+# @halostatue/fish-dict/functions/dict:set.fish
 function dict:set -d 'Sets $name{$key}=$argv'
     argparse -xq,e q/query e/erase -- $argv
     or return

@@ -1,3 +1,4 @@
+# @halostatue/fish-dict/functions/dict:keys.fish
 function dict:keys -a name -d 'Shows all keys for dictionary $name'
     if test -z $name
         echo >&2 'dict:keys: requires a name.'

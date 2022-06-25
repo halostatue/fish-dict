@@ -1,3 +1,4 @@
+# @halostatue/fish-dict/functions/dict:::keys.fish
 function dict:::keys -a name
     test -z $name
     and return 1

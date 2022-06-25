@@ -1,3 +1,4 @@
+# @halostatue/fish-dict/functions/dict:get.fish
 function dict:get -a name key -d 'Gets $name{$key}'
     if test -z $name
         echo >&2 'dict:get: requires a name.'

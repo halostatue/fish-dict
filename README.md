@@ -8,6 +8,9 @@ functionality, because fish does not yet support associative arrays.
 This has been extracted from `halostatue/fish-utils-core` because these
 functions are not core and should be installed on their own.
 
+Note that these functions should only be used when there is no other alternative
+available, and there's usually an alternative.
+
 ## Installation
 
 Install with [Fisher][] (recommended):
